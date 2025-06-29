@@ -10,7 +10,7 @@ a{
     display:flex;
     flex-direction: column;
 }
-.hero, .rand-info, .quote, .sign-up {
+.hero, .rand-info{
     display:flex;
     padding: 48px 250px;
     justify-content:center;
@@ -49,17 +49,86 @@ li, .hero-text{
     height: 300px;
     display: block;
 }
+.rand-info img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+.rand-info {
+    gap: 60px;
+}
 .hero {
     gap: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.right-side button {
-    padding: 10px 40px;
-    background-color: #3882F6;
+.right-side button, .sign-up button{
+    color:#F9FAF8;
     font-size: 18px;
-    border: 0px;
     border-radius: 10px;
     font-weight: 900;
-    cursor: pointer;
+    /* cursor: pointer; */
+    background-color: #3882F6;
+}
+.sign-up a, .right-side a{
+    padding: 10px 40px;
+    display: block;
+}
+.right-side button{
+    border: 0px;
+}
+.mid{
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 48px;
+}
+.text {
+    width: 200px;
+    text-align: center;
+    color: rgb(84, 84, 84);
+}
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 36px;
+    color: #1F2937;
+}
+.source{
+    font-weight: 900;
+    text-align: right;
+    font-style:normal;
+    font-size: 24px;
+}
+.sign-up{
+    background-color:#3882F6;
+    margin: 100px 300px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 50px;
+    border-radius: 15px;
+}
+.head{
+    font-size: 24px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+.sub-head{
+    font-size: 18px;
+    font-weight: 200;
+    color: lightgrey;
+}
+.sign-up button{
+    border: 3px solid white;
+}
+.footer{
+    text-align: center;
+    padding: 36px;
 }
